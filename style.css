@@ -1,0 +1,118 @@
+body {
+    font-size: 14px;
+    font-family: "Times New Roman",monospace;
+    text-align: center;
+    margin:auto;
+    background-image:linear-gradient(#50F48A, #FDFFDA);
+    height:540px;
+}
+h1{
+    
+    font-size: 24px;
+    font-family: "Times New Roman",
+    monospace;
+    text-align: center;
+    text-transform: uppercase;
+    margin:auto;
+    margin-top: 25px;
+  color:#FFFCF1;
+  height: 5px;
+}
+#game{
+    margin:auto;
+    margin-top:40px;
+    width:165px;
+}
+
+.positions{
+    width:50px;
+    height:50px;
+    padding:0px;
+    margin:0px; 
+    float:left;
+} 
+#menu{
+    color:#FFFCF1;
+    align-items: center;
+    
+}
+#divWhoStart{
+    margin:auto;
+    padding-top: 30px;
+    padding-bottom:10px;
+    font-size: 20px;
+}
+#player{
+    font-size:24px;
+    height: 5px;
+    font-family: "Times New Roman",monospace;
+    padding-bottom:20px;
+}
+.button{
+    font-size:20px;
+    font-weight: bold;
+    color:#FFFCF1;
+    outline: none;
+    background-color:#FFFCF139;
+    margin:auto;
+    width:165px;
+    height:35px;
+    align-self: center;
+    border:2px solid #FFFCF1;
+    border-radius:180px;
+    /*box-shadow: 3px 3px 1px #42535A49;*/
+}
+.button:active {
+  color: #9DFFB9;
+  /*box-shadow: 1px 1px 2px #42535A49;*/
+  transform: translateY(4px);
+  background-color: #FFFCF1;
+}
+#a1{
+    border-right:5px solid #FFFCF1;
+    border-bottom:5px solid #FFFCF1;
+}
+#a2{
+    border-bottom:5px solid #FFFCF1;
+}
+#a3{
+    border-left:5px solid #FFFCF1;
+    border-bottom:5px solid #FFFCF1;
+}
+#b1 {
+    border-right: 5px solid #FFFCF1;
+    border-bottom: 5px solid #FFFCF1;
+}
+
+#b2 {
+    border-bottom: 5px solid #FFFCF1;
+}
+
+#b3 {
+    border-left: 5px solid #FFFCF1;
+    border-bottom: 5px solid #FFFCF1;
+}
+#c1 {
+    border-right: 5px solid #FFFCF1;
+}
+#c2 {
+    border-right: 5px solid #FFFCF1;
+}
+div{
+  text-align:center;
+  font-size: 50px;
+  color:#FFFCF1;
+}
+.empty{
+    font-size:none;
+    font-weight: bold;
+    color:none;
+    outline: none;
+    background-color:none;
+    margin:auto;
+    width:165px;
+    height:35px;
+    align-self: center;
+    border:none;
+    border-radius:none;
+}
