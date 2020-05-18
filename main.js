@@ -84,7 +84,7 @@ function win(){
     document.getElementById('divWhoStart').innerText="";
     document.getElementById('player').innerText="Vencedor: "+winner;
    document.getElementById('start').style.visibility='hidden'
-   document.getElementById('start').innerText="Jogar Novamente";
+  // document.getElementById('start').innerText="Jogar Novamente";
   }
     
 }  
@@ -101,7 +101,7 @@ function tie(){
   document.getElementById('divWhoStart').innerText = "";
   document.getElementById('player').innerText = "Empate";
   document.getElementById('start').style.visibility='hidden';
-  document.getElementById('start').innerText="Jogar Novamente";
+  //document.getElementById('start').innerText="Jogar Novamente";
   
 }
  function clear() {
