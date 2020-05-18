@@ -100,7 +100,7 @@ function checkGameState(){
 function tie(){
   document.getElementById('divWhoStart').innerText = "";
   document.getElementById('player').innerText = "Empate";
-  document.getElementById('start').style.visibility='visible';
+  document.getElementById('start').style.visibility='hidden';
   document.getElementById('start').innerText="Jogar Novamente";
   
 }
