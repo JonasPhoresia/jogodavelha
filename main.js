@@ -83,7 +83,7 @@ function win(){
     gameOver = true;
     document.getElementById('divWhoStart').innerText="";
     document.getElementById('player').innerText="Vencedor: "+winner;
-   document.getElementById('start').style.visibility='visible'
+   document.getElementById('start').style.visibility='hidden'
    document.getElementById('start').innerText="Jogar Novamente";
   }
     

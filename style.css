@@ -116,3 +116,17 @@ div{
     border:none;
     border-radius:none;
 }
+p{
+  width:250px;
+  height:auto;
+  margin:50px;
+  font: normal 12pt Arial;
+  float: right;
+  /*text-align: justify;*/
+  /*text-justify: left;*/
+  text-shadow: 1px 1px 1px #00000059;
+  background-color: #FFFCF131;
+  border: 5px solid #FFFCF1;
+  font-weight: 500;
+  box-shadow:2px 2px 1px #00000039;
+}
