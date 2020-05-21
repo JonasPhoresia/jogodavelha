@@ -5,6 +5,7 @@ body {
     margin:auto;
     background-image:linear-gradient(#19218B, #EC86E3);
     height:540px;
+    background-repeat:no-repeat;
 }
 h1{
     
